@@ -8,7 +8,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ProductoComponent } from './pages/producto/producto.component';
-
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,11 +16,12 @@ import { ProductoComponent } from './pages/producto/producto.component';
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    ProductoComponent
+    ProductoComponent 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
