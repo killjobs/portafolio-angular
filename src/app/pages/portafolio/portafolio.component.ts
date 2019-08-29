@@ -8,9 +8,10 @@ import { InfoProductoService } from 'src/app/services/info-producto.service';
 })
 export class PortafolioComponent implements OnInit {
 
-  constructor(public _productoService : InfoProductoService) { }
+  constructor(public _productoService: InfoProductoService) { }
 
   ngOnInit() {
+
   }
 
 }
