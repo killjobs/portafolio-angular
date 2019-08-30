@@ -16,7 +16,6 @@ export class SearchComponent implements OnInit {
 
     this.route.params
     .subscribe(parametros=>{
-      console.log(parametros['termino'])
       this._productoService.getProductoDetalle(parametros['termino']);
     });
 
