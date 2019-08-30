@@ -1,0 +1,11 @@
+{
+    "titulo" : "TituloPrueba",
+    "email": "prueba@gmail.com",
+    "nombre_corto": "PaginaPrueba",
+    "pagina_autor": "https://www.pagina.com",
+    "facebook":"https://www.facebook.com",
+    "twitter":"https://www.twitter.com",
+    "instagram":"https://www.instagram.com",
+    "tublr":"https://www.tublr.com",
+    "equipo_trabajo": []
+}
